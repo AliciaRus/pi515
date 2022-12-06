@@ -11,3 +11,20 @@ for x in numList :
     max=x
     
 print(min, " is the minimum, ", max, " is the maximum")
+
+flavors = ["chocolate", "vanilla", "cookies and cream", "strawberry", "mint chocolate chip"]
+
+flavors2 = ["chocolate", "vanilla", "cookie dough", "strawberry", "cookies and cream"]
+
+print("chocolate" in flavors2)
+print("vanilla" in flavors2)
+print("cookies and cream" in flavors2)
+print("strawberry" in flavors2)
+print("mint chocolate chip" in flavors2)
+
+flavors.append(flavors2[2])
+print(flavors)
+
+flavors = flavors + flavors2
+flavors.remove("mint chocolate chip")
+print(flavors)
