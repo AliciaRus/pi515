@@ -39,8 +39,15 @@
 #     print(subject) 
 # print(length)
 
-wordList=["hippopotamus","elephant"]
+# wordList=["hippopotamus","elephant"]
 
-for x in wordList :
-  for letter in x :
-    print(letter)
+# for x in wordList :
+#   for letter in x :
+#     print(letter)
+holidayList=["Valentine's Day","Halloween","Christmas","Thanksgiving","New Years Day","St. Patricks Day","Easter"]
+
+def func(holiday):
+  print("My favorite holiday is " + holiday)
+
+for x in holidayList :
+  func(x)
