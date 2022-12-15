@@ -44,10 +44,23 @@
 # for x in wordList :
 #   for letter in x :
 #     print(letter)
-holidayList=["Valentine's Day","Halloween","Christmas","Thanksgiving","New Years Day","St. Patricks Day","Easter"]
+# holidayList=["Valentine's Day","Halloween","Christmas","Thanksgiving","New Years Day","St. Patricks Day","Easter"]
 
-def func(holiday):
-  print("My favorite holiday is " + holiday)
+# def func(holiday):
+#   print("My favorite holiday is " + holiday)
 
-for x in holidayList :
-  func(x)
+# for x in holidayList :
+#   func(x)
+
+gift_counters=[0,0]
+for gitf in range (1,13):
+  for x in range(gift):
+    gift[x] += x+1
+
+print(gift_counters)
+total=0
+
+for counter in gift_counters:
+  total = total + counter
+
+print("total number of gifts:",total)
