@@ -52,15 +52,15 @@
 # for x in holidayList :
 #   func(x)
 
-gift_counters=[0,0]
-for gitf in range (1,13):
-  for x in range(gift):
-    gift[x] += x+1
+# gift_counters=[0,0]
+# for gift in range (1,13):
+#   for x in range(gift):
+#     gift[x] += x+1
 
-print(gift_counters)
-total=0
+# print(gift_counters)
+# total=0
 
-for counter in gift_counters:
-  total = total + counter
+# for counter in gift_counters:
+#   total = total + counter
 
-print("total number of gifts:",total)
+# print("total number of gifts:",total)
