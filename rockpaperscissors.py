@@ -1,6 +1,5 @@
 import random
 import replit
-import time
 options=["rock","paper","scissors"]
 w,l,w2,l2,d=0,0,0,0,0
 boolean=True
@@ -49,7 +48,7 @@ while boolean:
 #       break
 #   else :
 #     gameNum=input("Not a valid number. How many games would you like to play? ")
-playerNum=input("How many players, 0, 1, or 2? ")
+playerNum=input("How many player inputs, 0, 1, or 2? ")
 while True :
   if playerNum=="1" or playerNum=="0" or playerNum=="2":
     break
